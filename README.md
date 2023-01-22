@@ -30,11 +30,11 @@ git status - Local repo ellenőrzése.
 
 git commit -m "Minden kész, README.md kitöltve." - Kommitolás a local repoba.
 
-git remote remove origin
+git remote remove origin - Clone miatt meglévő remote origin törlése.
 
 git remote add origin https://github.com/vojtillal/git-vizsga-0121-vojtillal.git - Github-on létrehozott remote repo megadása.
 
-git remote -v
+git remote -v - Remote repo kilistázása. (Végre működik... :P)
 
 git checkout main - Main ágra átlépés.
 
