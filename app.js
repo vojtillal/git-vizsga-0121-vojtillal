@@ -25,6 +25,10 @@ function loadSong(song){
     cover.src = `images/${song}.jpg`;
 }
 
+window.onload = function(){
+    console.log("Az oldal sikeresen betöltődött"); 
+};
+
 //Zene lejátszása
 function playSong(){
 
